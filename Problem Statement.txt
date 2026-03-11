@@ -1,0 +1,17 @@
+Problem Statement: Simple Linear Prediction
+A retail company wants to understand how its advertising spending influences product sales. The goal is to build a Simple Linear Regression Model that predicts Sales based on AdvertisingSpend.
+Objective
+Given the dataset containing 30 observations of:
+
+AdvertisingSpend (in SEK) – Amount spent on advertising for a day.
+Sales (in SEK) – Revenue generated on that day.
+
+Your task is to:
+
+Train a simple linear regression model to learn the relationship between AdvertisingSpend and Sales.
+Use the model to predict Sales for any given AdvertisingSpend input.
+Visualize the regression line (optional).
+
+Expected Outcome
+A model that fits a line of the form:
+Sales=b0+b1×AdvertisingSpendSales = b_0 + b_1 \times AdvertisingSpendSales=b0​+b1​×AdvertisingSpend
